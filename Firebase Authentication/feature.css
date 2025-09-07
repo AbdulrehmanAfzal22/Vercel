@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  background: url("image.png") no-repeat center center;
+  background-size: cover;   
+  background-attachment: fixed; 
+  overflow: hidden;
+}
+
+
+.over {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 30px;
+  background-color: #6151f7;
+  height: 52px;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 95px;
+  padding: 0;
+  margin: 548px;
+}
+
+.nav-bar li {
+  list-style: none;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-bar a:hover {
+  color: gray;
+}
+
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.heading {
+  font-family: cursive;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  position: absolute;
+  right: 1715px;
+  top: 12px;
+}
+
+.features {
+  padding: 60px 20px;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+
+.features .title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.feature-card {
+  background: #6151f7;
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  flex: 1 1 300px;
+  max-width: 320px;
+
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  background: #4a3fd1;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+
+ footer {
+
+  color: white;
+  text-align: center;
+  padding: 30px 40px;
+  width: 96%;      
+  position: fixed;      
+  bottom: 0;            
+  left: 0;
+}
+
+    footer h2 {
+      margin-bottom: 10px;
+      color: #7B68EE; 
+    }
+
+    footer p {
+      margin: 8px 0;
+      color: #ccc;
+    }
+
+    .social-icons {
+      margin-top: 15px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #FFD700; 
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #7B68EE;
+    }
+
+
+
+
+    .content{
+        position: absolute;
+        left: 74px;
+    }
